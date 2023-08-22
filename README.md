@@ -13,7 +13,7 @@ run_basic.bat
 
 untuk challenge basic atau
 
-```
+```shell
 run_advance.bat
 ```
 
