@@ -25,29 +25,32 @@ class Person:
         self.mass = mass
         self.height = height
         self.name = name
+        self.BMI = round(self.mass / (self.height * self.height), 2) 
 
-    def calc_bmi(self) -> float:
-        return self.mass / (self.height * self.height)
+def print_bmi(person: Person) -> str:
+    return f"{person.name} ({person.BMI})"
 
 def highest_bmi(person1: Person, person2:Person):
-    if person1.calc_bmi() > person2.calc_bmi():
-        print(f"BMI {person1.name} Lebih tinggi dari {person2.name}")
+    if person1.BMI > person2.BMI:
+        print(f"BMI {print_bmi(person1)} Lebih tinggi dari {print_bmi(person2)}")
     else:
-        print(f"BMI {person2.name} Lebih tinggi dari {person1.name}")
+        print(f"BMI {print_bmi(person2)} Lebih tinggi dari {print_bmi(person1)}")
 
 start = time.perf_counter()
 
+print("Data 1: \n")
 udin = Person(78,1.69,"Udin")
 nanang = Person(92,1.95,"Nanang")
 
 highest_bmi(udin,nanang)
 
+print("Data 2: \n")
 udin2 = Person(95,1.88, "Udin")
 nanang2 = Person(85,1.76, "Nanang")
 
 highest_bmi(udin2,nanang2)
 
-print(f"\nTime Elapsed: {time.perf_counter() - start} seconds")
+print(f"\nTime Elapsed: {(time.perf_counter() - start) * 1000} miliseconds")
 
 
 
