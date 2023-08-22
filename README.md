@@ -6,13 +6,16 @@ https://www.smk.dev/challenge/7266/
 Note: Link diatas akan merujuk ke challenge 7266
 
 untuk menjalankan jawabannya. cukup jalankan
-`run_basic.bat`
 
-untuk challenge basic
+```shell
+run_basic.bat
+```
 
-atau
+untuk challenge basic atau
 
-`run_advance.bat`
+```
+run_advance.bat
+```
 
 untuk challenge advance
 
