@@ -1,5 +1,5 @@
 @echo off
-set LASTEST="#7266"
+set LASTEST="#7644"
 cd "./%LASTEST%"
 setlocal enabledelayedexpansion
 
@@ -17,6 +17,10 @@ for %%f in (*.*) do (
             echo:
             rustc advanced.rs
             advanced.exe
+        ) else if "!extension!"==".go" (
+            echo Compiling and running advanced.go using Golang
+            echo:
+            go run advanced.go
         ) 
     )
 )

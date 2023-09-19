@@ -2,8 +2,8 @@
 
 Kumpulan jawaban dari SMKDEV coding challange
 
-https://www.smk.dev/challenge/7266/
-Note: Link diatas akan merujuk ke challenge 7266
+https://www.smk.dev/challenge/7644/
+Note: Link diatas akan merujuk ke challenge 7644
 
 untuk menjalankan jawabannya. cukup jalankan
 
