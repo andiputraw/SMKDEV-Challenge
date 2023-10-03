@@ -1,9 +1,13 @@
+# Note
+
+Tolong tambahkan Issue jika ada sesuatu yang perlu ditanyakan
+
 # SMKDEV Challenge
 
 Kumpulan jawaban dari SMKDEV coding challange
 
-https://www.smk.dev/challenge/7644/
-Note: Link diatas akan merujuk ke challenge 7644
+https://www.smk.dev/challenge/8142/
+Note: Link diatas akan merujuk ke challenge 8142
 
 untuk menjalankan jawabannya. cukup jalankan
 

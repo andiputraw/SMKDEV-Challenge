@@ -1,5 +1,5 @@
 @echo off
-set LASTEST="#7644"
+set LASTEST="#8142"
 cd "./%LASTEST%"
 setlocal enabledelayedexpansion
 
@@ -21,6 +21,10 @@ for %%f in (*.*) do (
             echo Compiling and running advanced.go using Golang
             echo:
             go run advanced.go
+        ) else if "!extension!"==".js" (
+            echo Running advanced.js using nodejs
+            echo:
+            node advanced.js
         ) 
     )
 )
